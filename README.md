@@ -12,18 +12,20 @@ On Windows, install below software
 
 # Design documentation
  
-  https://github.com/jyothi-kasturi/vf-assignment/documentation/Architecture.pdf
+  https://github.com/jagdevops19/job-assignment/documentation/Architecture.pdf
 
 # Usage [* Only dev environment will work end to end, please select dev from jenkins jobs]
 
 
 1. How to run it with Jenkins Pipelines ?
 
-    Access https://github.com/jyothi-kasturi/vf-assignment/documentation/How_to_run_Jenkins_pipeline_jobs.pdf
+    Access https://github.com/jagdevops19
+/
+job-assignment/documentation/How_to_run_Jenkins_pipeline_jobs.pdf
 
     and setup the jenkins jobs as described in that documentation. 
 
-    https://github.com/jyothi-kasturi/vf-assignment/jenkins 
+    https://github.com/jagdevops19/job-assignment/jenkins 
 
     1. Jenkinsfile.buildSpringBoot - Build the spring boot applications, with spring profiles
     2. Jenkinsfile.createOrDestroyInfra - This will call terraform scripts to create or destroy infrastructure in AWS
@@ -31,7 +33,7 @@ On Windows, install below software
 
 2. Terraform (Infrastructure As Code) 
 
-    https://github.com/jyothi-kasturi/vf-assignment/terraform
+    https://github.com/jagdevops19/job-assignment/terraform
 
     cd dev
 
@@ -43,7 +45,7 @@ On Windows, install below software
     
 3. Spring boot application Rest API
 
-    https://github.com/jyothi-kasturi/vf-assignment/spring-boot/assignment
+    https://github.com/jagdevops19/job-assignment/spring-boot/assignment
 
     On Local machine, build with
 
