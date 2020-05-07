@@ -4,7 +4,7 @@
 #aws_access_key_id=
 #aws_secret_access_key=
 
-#provider "aws" {
-  #region = "eu-west-2"
-  #profile = "dev"
-#}
+provider "aws" {
+  region = "eu-west-2"
+  profile = "dev"
+}
